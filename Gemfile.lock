@@ -9,6 +9,7 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
+    builder (3.2.0)
     chef (11.4.4)
       erubis
       highline (>= 1.6.9)
@@ -23,6 +24,8 @@ GEM
       ohai (>= 0.6.0)
       rest-client (>= 1.0.4, < 1.7.0)
       yajl-ruby (~> 1.1)
+    ci_reporter (1.8.4)
+      builder (>= 2.1.2)
     diff-lcs (1.2.4)
     erubis (2.7.0)
     highline (1.6.19)
@@ -71,6 +74,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  ci_reporter
   knife-solo (~> 0.3.0.pre3)
   rake
   serverspec!
