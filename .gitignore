@@ -1,6 +1,5 @@
 .chef/
 .vagrant/
-cookbooks/
 
 ### /Users/naoya/.gitignore-boilerplates/ruby.gitignore
 
